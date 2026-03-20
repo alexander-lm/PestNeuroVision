@@ -1,3 +1,4 @@
+
 # PestNeuroVision: Detección Móvil de Plagas mediante YOLO11s
 
 Este repositorio contiene el material complementario para el artículo científico: 
