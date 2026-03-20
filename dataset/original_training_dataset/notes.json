@@ -1,0 +1,45 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "Bemisia tabaci (adult)"
+    },
+    {
+      "id": 1,
+      "name": "Ceratitis capitata (adult)"
+    },
+    {
+      "id": 2,
+      "name": "Dione juno (adult)"
+    },
+    {
+      "id": 3,
+      "name": "Dione juno (larva)"
+    },
+    {
+      "id": 4,
+      "name": "Ligyrus gibbosus (adult)"
+    },
+    {
+      "id": 5,
+      "name": "Liriomyza huidobrensis (adult)"
+    },
+    {
+      "id": 6,
+      "name": "Myzus persicae (adult)"
+    },
+    {
+      "id": 7,
+      "name": "Spodoptera frugiperda (adult)"
+    },
+    {
+      "id": 8,
+      "name": "Spodoptera frugiperda (larva)"
+    }
+  ],
+  "info": {
+    "year": 2026,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}
