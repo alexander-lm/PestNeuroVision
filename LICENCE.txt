@@ -1,0 +1,103 @@
+# ==============================================================================
+# PROJECT: PestNeuroVision_Demo_Dataset_2026
+# ==============================================================================
+# NOTE: This is a reduced demonstration dataset intended for code validation 
+# and reproduction of the inference pipeline. It contains only images with 
+# open-access licenses (CC0/CC BY 4.0).
+# ------------------------------------------------------------------------------
+# Dataset Name: PestNeuroVision_Minidataset_2026
+# Main DOI: https://doi.org/10.5281/zenodo.0000000
+# Main Author: Alexander Leandro Mendoza
+# Year: 2026
+# ==============================================================================
+
+1. PUBLIC DOMAIN DIRECTORIES (CC0 1.0)
+--------------------------------------
+The following folders contain images released under CC0 1.0 (No rights reserved).
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+
+- /folder_A/ (images_01 to 03)
+- /folder_C/ (all contents)
+
+
+2. ATTRIBUTION REQUIRED DIRECTORIES (CC BY 4.0)
+-----------------------------------------------
+The following folders contain images licensed under CC BY 4.0. 
+You are free to share and adapt the material as long as credit is given.
+License URL: https://creativecommons.org/licenses/by/4.0/ 
+
+- /folder_B/ (images_04 to 09)
+- /folder_D/ (specific files)
+
+
+3. DETAILED ATTRIBUTION TABLE (CC BY 4.0 Files)
+-----------------------------------------------
+| Folder   | File Name    | Author / Creator | Year | Original Source (URL) |
+|----------|--------------|------------------|------|-----------------------|
+| folder_B | image_04.png | Juan Pérez       | 2026 | https://github...     |
+| folder_B | image_05.png | Maria García     | 2025 | https://doi...        |
+| folder_D | image_X.png  | Alice Smith      | 2024 | https://archive...    |
+
+
+4. CITATION AND ATTRIBUTION GUIDE
+---------------------------------
+
+4.1. IMAGE ATTRIBUTION (Legal Requirement)
+If you reuse specific images from Folder_B or Folder_D, you MUST provide 
+attribution as follows:
+"Image Name" by [Author], [Year]. Licensed under CC BY 4.0. 
+Source: [Link from Table in Section 3]
+
+4.2. PROJECT CITATION (Academic Style - IEEE)
+If you use this dataset, the code, or the PestNeuroVision model in a 
+scientific publication, please cite the work as follows:
+
+[1] J. Pérez, "Test_set_heat_map_PestNeuroVision_2026," PestNeuroVision Project 
+    Repository, 2026. [Online]. Available: https://doi.org/10.5281/zenodo.0000000
+
+
+5. CODE LICENSE: ANALYTICS & NOTEBOOKS (MIT License)
+----------------------------------------------------
+The Jupyter Notebooks (.ipynb) in this repository are licensed under MIT.
+Copyright (c) 2026 Juan Pérez
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+
+6. CODE LICENSE: MOBILE APP (All Rights Reserved)
+-------------------------------------------------
+The source code in the /mobile_app/ directory is EXCLUDED from the MIT License. 
+All rights are reserved by the author (Juan Pérez). 
+
+Unauthorized copying, modification, or distribution of the mobile application 
+source code is strictly prohibited. This software is provided for review 
+purposes only as part of the F1000Research publication process. 
+(Pending registration at INDECOPI).
+
+6.1. EXECUTABLE BINARY (APK)
+The provided APK file in /mobile_app/release/ is for research validation only.
+
+
+7. MODEL ARCHITECTURE & THIRD-PARTY SOFTWARE
+--------------------------------------------
+The trained model detector (PestNeuroVision) was built using the 
+YOLO11s architecture by Ultralytics. Usage is subject to the 
+Ultralytics licensing terms (AGPL-3.0).
+
+
+8. MODEL WEIGHTS & ANNOTATIONS (CC BY 4.0)
+------------------------------------------
+Trained weights (e.g., .pt, .tflite files) and manual annotations 
+created for the PestNeuroVision project are licensed under CC BY 4.0.
