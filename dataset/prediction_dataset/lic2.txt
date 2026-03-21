@@ -1,0 +1,15 @@
+image_10_dione_juno_adult_2				-> CC0			-> https://www.inaturalist.org/observations/37962839
+image_11_ceratitis_capitata_adult_1		-> CC0 			-> https://www.inaturalist.org/observations/69185885
+image_12_ceratitis_capitata_adult_2		-> CC0			-> https://www.inaturalist.org/observations/102571928
+image_13_ceratitis_capitata_adult_3		-> CC0			-> https://www.inaturalist.org/observations/104783008
+image_14_Ligyrus_gibbosus_adult_1		-> CC0			-> https://www.inaturalist.org/observations/225035301
+image_15_myzus_persicae_nymph_2			-> CC0			-> https://www.inaturalist.org/observations/38478019
+image_16_spodoptera_frugiperda_adult_1 	-> CC0			-> https://www.inaturalist.org/observations/134892035
+image_17_spodoptera_frugiperda_adult_2	-> CC0 			-> https://www.inaturalist.org/observations/69886018
+image_18_spodoptera_frugiperda_larva_2  -> CC0 			-> https://www.inaturalist.org/observations/236906070
+image_19_spodoptera_frugiperda_larva_3	-> CC0 			-> https://www.inaturalist.org/observations/235421013
+
+image_20_bemisia_tabaci_adult_1 		-> CC BY 4.0	-> Mihajlo Tomić (mihajlo2)				-> https://www.inaturalist.org/observations/60075120
+image_21_dione_juno_larva_1				-> CC BY 4.0	-> Alberto Reyes Bautista (albertorb) 	-> https://www.inaturalist.org/observations/194123388
+
+License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,12 @@
+image_01	-> CC0 			-> https://www.inaturalist.org/observations/240437816
+image_02	-> CC0 			-> https://www.inaturalist.org/observations/331148785
+image_03	-> CC0			-> https://www.inaturalist.org/observations/5287581
+image_04	-> CC0			-> https://www.inaturalist.org/observations/19301400
+
+image_05	-> CC BY 4.0 	-> Mike Bowie (ecoman)				-> https://www.inaturalist.org/observations/185192259
+image_06	-> CC BY 4.0	-> Sebastián Fornés (seba_fornes)	-> https://www.inaturalist.org/observations/108328659
+image_07	-> CC BY 4.0 	-> Pietro (pietronovazzi) 			-> https://www.inaturalist.org/observations/243189131
+image_08	-> CC by 4.0	-> Mugala, J., et al				-> https://doi.org//10.17159/2254-8854/2022/a11455
+image_09	-> CC BY 4.0	-> Megan Kossa (meganopteryx) 		-> https://www.inaturalist.org/observations/17408158
+
+License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)

@@ -39,6 +39,40 @@ License URL: https://creativecommons.org/licenses/by/4.0/
 | folder_D | image_X.png  | Alice Smith      | 2024 | https://archive...    |
 
 
+===============================================================================
+3. DETAILED ATTRIBUTION (TASL METHOD - CC BY 4.0)
+===============================================================================
+
+DIRECTORY: /folder_A/images/
+-------------------------------------------------------------------------------
+- "Figure 3a" by Mugala et al. (2024)
+  Source: https://doi.org/10.12688/f1000research.145890.1
+  License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
+- "Figure 3b" by Mugala et al. (2024)
+  Source: https://doi.org/10.12688/f1000research.145890.1
+  License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
+
+DIRECTORY: /folder_B/resources/
+-------------------------------------------------------------------------------
+- "image_04.png" by Juan Pérez (2026)
+  Source: https://github.com/user/repo
+  License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
+- "image_05.png" by Maria García (2025)
+  Source: https://doi.org/10.xxxx/xxx
+  License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
+
+DIRECTORY: /folder_D/data_samples/
+-------------------------------------------------------------------------------
+- "image_X.png" by Alice Smith (2024)
+  Source: https://archive.org/details/xxxx
+  License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
+===============================================================================
+
 4. CITATION AND ATTRIBUTION GUIDE
 ---------------------------------
 
