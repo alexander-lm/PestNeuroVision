@@ -1,0 +1,21 @@
+<!-- This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). -->
+
+<resources>
+    <string name="app_name">PestNeuroVision</string>
+    <string name="open_drawer">Abrir el panel de navegación</string>
+    <string name="close_drawer">Cerrar el panel de navegación</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_title">About</string>
+
+
+    <string name="credit_bemisia"><i>Bemisia tabaci</i> (adult)</string>
+    <string name="credit_ceratitis"><i>Ceratitis capitata</i> (adult)</string>
+    <string name="credit_dione_adult"><i>Dione juno</i> (adult)</string>
+    <string name="credit_dione_larva"><i>Dione juno</i> (larva)</string>
+    <string name="credit_ligyrus"><i>Ligyrus gibbosus</i> (adult)</string>
+    <string name="credit_liriomyza"><i>Liriomyza huidobrensis</i> (adult)</string>
+    <string name="credit_myzus"><i>Myzus persicae</i> (nymph)</string>
+    <string name="credit_spodoptera_adult"><i>Spodoptera frugiperda</i> (adult)</string>
+    <string name="credit_spodoptera_larva"><i>Spodoptera frugiperda</i> (larva)</string>
+</resources>

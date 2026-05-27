@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/green_dark" android:state_focused="true"/>
+    <item android:color="@color/green_dark" android:state_hovered="true"/>
+    <!-- <item android:color="@color/red" android:state_enabled="false"/> -->
+    <item android:color="@color/white"/>  <!-- unfocused -->
+</selector>

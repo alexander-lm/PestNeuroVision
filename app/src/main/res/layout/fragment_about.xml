@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F3F3"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/creditCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="24dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PestNeuroVision"
+            android:fontFamily="@font/montserrat_bold"
+            android:textSize="26sp"
+            android:textColor="#1A1A1A"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Version 1.0.0"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="13sp"
+            android:textColor="#888888"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DDDDDD"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App License"
+            android:fontFamily="@font/montserrat_bold"
+            android:textSize="15sp"
+            android:textColor="#3C2C24" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="PestNeuroVision is distributed under the GNU Affero General Public License v3.0 (AGPL-3.0). This means that the source code for this application is publicly available, and any modifications or derivative works must also be distributed under the same license."
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="13sp"
+            android:textColor="#555555"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="20dp"
+            android:justificationMode="inter_word"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="https://www.gnu.org/licenses/agpl-3.0.html"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="12sp"
+            android:textColor="#2196F3"
+            android:autoLink="web" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DDDDDD"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YOLO11s inference engine"
+            android:fontFamily="@font/montserrat_bold"
+            android:textSize="15sp"
+            android:textColor="#3C2C24" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="This application uses Ultralytics YOLO11s as its agricultural pest detection engine, which is also governed by the AGPL-3.0 license."
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="13sp"
+            android:textColor="#555555"
+            android:lineSpacingExtra="4dp"
+            android:justificationMode="inter_word"
+            android:layout_marginBottom="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="https://github.com/ultralytics/ultralytics"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="12sp"
+            android:textColor="#2196F3"
+            android:autoLink="web" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DDDDDD"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Image credits"
+            android:fontFamily="@font/montserrat_bold"
+            android:textSize="15sp"
+            android:textColor="#3C2C24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="The credits are for the images used in the “Insects” module of the app."
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="13sp"
+            android:textColor="#555555"
+            android:lineSpacingExtra="4dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_background"
+            android:layout_marginTop="12dp"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvCredit1"
+                android:text="Bemisia tabaci on tomato leaf"
+                android:fontFamily="@font/montserrat_bold"
+                android:textSize="13sp"
+                android:textColor="#1A1A1A" />
+            <TextView
+                android:id="@+id/tvCreditSub1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mihajlo Tomić, iNaturalist, observation 60075120, CC BY 4.0"
+                android:fontFamily="@font/montserrat_regular"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvCredit2"
+                android:text="Ceratitis capitata adult male"
+                android:fontFamily="@font/montserrat_bold"
+                android:textSize="13sp"
+                android:textColor="#1A1A1A" />
+            <TextView
+                android:id="@+id/tvCreditSub2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jesse Rorabaugh, iNaturalist, observation 69185885, CC0 1.0"
+                android:fontFamily="@font/montserrat_regular"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="10dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvCredit3"
+                android:text="Dione juno adult — dorsal view"
+                android:fontFamily="@font/montserrat_bold"
+                android:textSize="13sp"
+                android:textColor="#1A1A1A" />
+            <TextView
+                android:id="@+id/tvCreditSub3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sarah Angulo, iNaturalist, observation 240437816, CC0 1.0"
+                android:fontFamily="@font/montserrat_regular"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvCredit4"
+                android:text="Dione juno larva cluster"
+                android:fontFamily="@font/montserrat_bold"
+                android:textSize="13sp"
+                android:textColor="#1A1A1A" />
+            <TextView
+                android:id="@+id/tvCreditSub4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alberto Reyes Bautista, iNaturalist, observation 194123388, CC BY 4.0"
+                android:fontFamily="@font/montserrat_regular"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="10dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvCredit5"
+                android:text="Ligyrus gibbosus adult beetle"
+                android:fontFamily="@font/montserrat_bold"
+                android:textSize="13sp"
+                android:textColor="#1A1A1A" />
+            <TextView
+                android:id="@+id/tvCreditSub5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sinaloa Silvestre, iNaturalist, observation 225035301, CC0 1.0. Second photo in the iNaturalist observation gallery (thumbnail position 2)."
+                android:fontFamily="@font/montserrat_regular"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="10dp" />
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:id="@+id/tvCredit6"-->
+<!--                android:text="Liriomyza huidobrensis leaf mine"-->
+<!--                android:fontFamily="@font/montserrat_bold"-->
+<!--                android:textSize="13sp"-->
+<!--                android:textColor="#1A1A1A" />-->
+<!--            <TextView-->
+<!--                android:id="@+id/tvCreditSub6"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Reproduced from Mugala et al. (2022), Journal of African Entomology, CC BY 4.0"-->
+<!--                android:fontFamily="@font/montserrat_regular"-->
+<!--                android:textSize="12sp"-->
+<!--                android:layout_marginTop="2dp"-->
+<!--                android:layout_marginBottom="10dp" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvCredit7"
+                android:text="Myzus persicae nymph colony"
+                android:fontFamily="@font/montserrat_bold"
+                android:textSize="13sp"
+                android:textColor="#1A1A1A" />
+            <TextView
+                android:id="@+id/tvCreditSub7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jesse Rorabaugh, iNaturalist, observation 38478019, CC0 1.0"
+                android:fontFamily="@font/montserrat_regular"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="10dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvCredit8"
+                android:text="Spodoptera frugiperda adult moth"
+                android:fontFamily="@font/montserrat_bold"
+                android:textSize="13sp"
+                android:textColor="#1A1A1A" />
+            <TextView
+                android:id="@+id/tvCreditSub8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chrissy McClarren y Andy Reago, iNaturalist, observation 134892035, CC0 1.0"
+                android:fontFamily="@font/montserrat_regular"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="10dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvCredit9"
+                android:text="Spodoptera frugiperda larva on corn"
+                android:fontFamily="@font/montserrat_bold"
+                android:textSize="13sp"
+                android:textColor="#1A1A1A" />
+            <TextView
+                android:id="@+id/tvCreditSub9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Megan Kossa, iNaturalist, observation 17408158, CC BY 4.0. Third photo in the iNaturalist observation gallery (thumbnail position 3)."
+                android:fontFamily="@font/montserrat_regular"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp" />
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DDDDDD"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other image credits"
+            android:fontFamily="@font/montserrat_bold"
+            android:textSize="15sp"
+            android:textColor="#3C2C24" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_background"
+            android:layout_marginTop="12dp"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tvCredit10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="App cover: Spodoptera frugiperda (adult)"
+                android:fontFamily="@font/montserrat_bold"
+                android:textSize="13sp"
+                android:textColor="#1A1A1A" />
+            <TextView
+                android:id="@+id/tvCreditSub10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fernando Sessegolo, iNaturalist, observation 69886018, CC0 1.0"
+                android:fontFamily="@font/montserrat_regular"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/tvCredit11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="App icon"
+                android:fontFamily="@font/montserrat_bold"
+                android:textSize="13sp"
+                android:textColor="#1A1A1A" />
+            <TextView
+                android:id="@+id/tvCreditSub11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Original design by the author, CC BY 4.0"
+                android:fontFamily="@font/montserrat_regular"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp" />
+
+        </LinearLayout>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DDDDDD"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="© 2026 PestNeuroVision · AGPL-3.0"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="12sp"
+            android:textColor="#AAAAAA" />
+
+    </LinearLayout>
+</ScrollView>

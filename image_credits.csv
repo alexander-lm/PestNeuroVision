@@ -1,0 +1,5 @@
+﻿folder,filename,license,author,source_url,source_platform,year (observed),year (submitted),notes
+app/src/main/res/**,"All images, except those listed below",CC0 1.0,Various,https://www.inaturalist.org,iNaturalist,Various,Various,No attribution is required.
+app/src/main/res/**,bemisia_tabaci_adult.jpg,CC BY 4.0,Mihajlo Tomić,https://www.inaturalist.org/observations/60075120,iNaturalist,2020,2020,
+app/src/main/res/**,dione_juno_larva.jpg,CC BY 4.0,Alberto Reyes Bautista,https://www.inaturalist.org/observations/194123388,iNaturalist,2023,2023,
+app/src/main/res/**,spodoptera_frugiperda_larva.jpg,CC BY 4.0,Megan Kossa,https://www.inaturalist.org/observations/17408158,iNaturalist,2018,2018,Third photo in the iNaturalist observation gallery (thumbnail position 3).

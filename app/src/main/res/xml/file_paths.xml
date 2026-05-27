@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). -->
+
+<paths>
+    <cache-path name="my_cache_images" path="." />
+</paths>
